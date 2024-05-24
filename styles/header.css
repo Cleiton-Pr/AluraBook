@@ -1,0 +1,253 @@
+
+.cabecalho_menu{
+    width: 30px;
+    height: 40px;
+    background-image: url("/img/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 10%;
+
+   
+}
+.cabecalho{
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+   
+}
+.container_img{
+    padding: 1em;
+}
+.lista_menu{
+    display: none;
+    position: absolute;
+    top: 5%;}
+    .logo1{
+        margin-left: 3.5em;
+        position: absolute;
+    }
+
+
+.container_botão:checked ~ .container_rotulo > .cabecalho_menu{
+    background-image: url("/img/Menu\ Aberto.svg");
+    width: 9px;
+    height: 4px;
+    background-position: 10%;
+    display: inline-block;
+    margin-left: 0.2em;
+}
+
+.container_botão:checked~.container_rotulo{
+    background: var(--cor-azul);
+    
+    
+    
+}
+.container_botão:checked ~ .lista_menu{
+    display: block;
+    margin: 2em;
+    width: auto;
+}
+.lista_menu_titulo, .lista_menu_item{
+    background-color: var(--cor-branco);
+    padding: 1em;
+    
+}
+.lista_link{
+    text-decoration: none;
+    font-size: 18px;
+    color:var(--cor-azul);
+    background-clip:text ;
+    text-transform: uppercase;
+    
+}
+
+.lista_menu_titulo{
+    color:var(--cor-laranja);
+    font-size: 18px;
+    font-weight: 700;
+
+   
+}
+.container_botão{
+   display: none;
+}
+
+.alura{
+    display: none;
+    
+}
+.opcoes{
+    display: none;
+}
+
+.container_texto{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    
+        
+    .logo1{
+        position: static;
+    }
+  
+    .alura{
+        display: flex;
+        margin: 1em;
+    }
+
+    .alura_nome{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .books{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+
+    
+
+    .opcoes{
+        display: flex;
+        
+    }
+    
+    .opcoes_lista{
+        
+        font-size: 18px;
+        font-family: var(--font-principal);
+        text-transform: uppercase;
+        margin: 0em 2em 0em;
+    }
+    .opcoes_link{
+        text-decoration: none;
+        color: var(--cor-azul);
+        
+    }
+    
+    .coracao_fav{
+        display: none;
+    }
+
+    .cabecalho_menu{
+        display: none;
+    }
+
+    .opcoes_botao:checked~.lista_menu{
+    display: block;
+    width: auto;
+    margin-top: 2em;
+
+ }
+
+  .opcoes_botao{
+    display: none;
+  }
+  
+  
+
+.container_botão:checked ~ .lista_menu{
+    display: block;
+    margin-top: 2em;
+    width: auto;
+
+}
+.lista_menu_titulo, .lista_menu_item{
+    background-color: var(--cor-branco);
+    padding: 1em;
+    
+}
+.lista_link{
+    text-decoration: none;
+    font-size: 18px;
+    color:var(--cor-azul);
+    background-clip:text ;
+    text-transform: uppercase;
+    
+}
+
+.lista_menu_titulo{
+    color:var(--cor-laranja);
+    font-size: 18px;
+    font-weight: 700;
+
+   
+}
+.container_botão{
+   display: none;
+}
+
+.container_texto{
+    display: none;
+}
+
+}
+@media screen and (min-width: 1728px){ 
+
+.alura{
+    margin: 0em 1em 0em;
+}
+ .alura_nome{
+    font-size: 40px;
+ }
+ .books{
+    font-size: 40px;
+ }
+    
+ .logo1{
+    margin: 0em 0.5em 0em ;
+    padding-left: 1em;
+ }
+  .opcoes{
+   margin-right: auto;
+   
+  }
+
+  .container_link{
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    text-decoration: none;
+    color: var(--cor-azul);
+  }
+  .container_texto{
+    display: flex;
+  }
+
+
+
+ 
+  }
+
+ 
+
+
+
+
+  
+  
+
+
+
+
+   
+
+
+
+
+
+
+
+
+  
