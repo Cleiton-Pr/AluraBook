@@ -2,7 +2,7 @@
 Projeto de Mobile first
 
 
-E
+
 * Abordagem mobile-first
 * Utilizar media queries na construção de layouts responsivos
 * Estrutura HTML e estilização CSS
