@@ -16,8 +16,13 @@ Response: 1728px
 
 
 Response: 1024px
+
 ![Captura de tela 2024-05-24 175114](https://github.com/Cleiton-Pr/AluraBook/assets/109486247/c76945af-3f94-4ba5-b67c-b4a14b743fae)
 
 
+
+
 Response: 624px
+
+
 ![Captura de tela 2024-05-24 174911](https://github.com/Cleiton-Pr/AluraBook/assets/109486247/f98145d4-a650-4a0a-91fe-9eaae78b33f5)
