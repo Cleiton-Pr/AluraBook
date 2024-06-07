@@ -9,6 +9,8 @@ Projeto de Mobile first
 * Criando Header, Flexbox e @import
 * Integrando SwiperJS
 
+  Página: https://alura-book-mauve.vercel.app/
+
 Response: 1728px
 
 ![Captura de tela 2024-05-24 175133](https://github.com/Cleiton-Pr/AluraBook/assets/109486247/5df0377c-6268-4301-a51a-d0c599f0e76a)
